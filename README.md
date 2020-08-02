@@ -4,7 +4,7 @@ Sparkify AWS Datawarehouse Project:
 Summary:
 ----
 
-The objective of this project is to create a datawarehouse in AWS for analyitics on the use of our service. More specifically, the project will consist on recovering data from multiple data files we have been collecting for some time, which are stored on S3 and inserting them in a Redshift database, which will be created with this purpose. By having all the data readily available in a columnar storeage relational database we will be able to perform a great variety of queries, very efficiently, to make sense of this data and bring value to our company, by better understanding how our service is being used.
+The objective of this project is to create a data lake, stored in AWS S3 for future analyitics on the use of our service. More specifically, the project will consist on recovering data from multiple data files we have been collecting for some time, which are stored on S3 and inserting them into Spark dataframes. This will allow us to clean and process the data before storing it into a data lake for future use. By having all the data stored in this format and preprocessed we will be able to efficiently retrieve it for use in the future.
 
 Parts of the project:
 ---
