@@ -1,4 +1,4 @@
-Sparkify AWS Datawarehouse Project:
+Sparkify AWS Data Lake Project:
 ====
 
 Summary:
